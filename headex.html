@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bad Bot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/stylesheet.css">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/086a8c5dcb.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  <style>
+html {
+    overflow-x: hidden;
+  }
+  .navbar-custom {
+    background-color: #5cb85c;
+  }
+  .center-block {
+    float: none;
+  }
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary:active:focus {
+    background-color: #5cb85c;
+    border-color: #000000;
+  }
+  .navbartext {
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .navbartext:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    background: #000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .navbartext:hover {
+    transition: 2s;
+    text-shadow: 1px 0px 2px black, 0 0 1em black, 0 0 0.2em white;
+  }
+  .navbartext:hover:after { 
+    width: 100%; 
+    left: 0;
+  }
+  @media screen and (max-height: 300px) {
+	  ul {
+		  margin-top: 10px;
+	  }
+  }
+  </style>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+      <a class="navbar-brand" href="#">Ban's Bots</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link navbartext" href="https://discord.gg/VcqJKhF">Discord</a>
+            <a class="nav-item nav-link navbartext" href="#">Credits</a>
+            <a class="nav-item nav-link navbartext" href="index.html">Main Page</a>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron text-center hoverable p-2">
+      <div class="row">
+        <div class="col-md-2 offset-md-1 mx-3 my-3">
+          <div class="view overlay">
+            <img src="headex.png" class="img-fluid border border-success" alt="boticon">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-7 text-md-left ml-3 mt-3">
+          <a href="https://github.com/EnjoyYourBan/EnjoyYourBan.github.io">
+            <h5 class="pb-1 text-success githublink">Version 0.1</h5>
+          </a>
+          <h1>
+            Bad Bot
+            <div class="info">
+              <h6><i class="fas fa-download badge badge-success badge-pill"> </i> 000 downloads</h6>
+            </div>
+          </h1>
+          <p class="font-weight-normal">Generate Minecraft heads easily by dragging a skin file onto the program.</p>
+          <a class="btn btn-disabled shadow">Download Normal</a>
+          <a class="btn btn-success shadow" onclick="window.open('lite-skullit.zip')">Download Lite</a>
+        </div>
+      </div>
+    </div>
+</head>
+<body>
